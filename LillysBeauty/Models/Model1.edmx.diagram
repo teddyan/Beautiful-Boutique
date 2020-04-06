@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="80e7bc5e229d471f8dbaa2ef3b7f1f24" Name="Diagram1">
+        <EntityTypeShape EntityType="LillyBeautyModel.Booking" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LillyBeautyModel.Category" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LillyBeautyModel.Days" Width="1.5" PointX="12.25" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LillyBeautyModel.Gallery" Width="1.5" PointX="3" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LillyBeautyModel.Months" Width="1.5" PointX="10" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LillyBeautyModel.Product" Width="1.5" PointX="3" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LillyBeautyModel.ProductDetail" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LillyBeautyModel.Roles" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LillyBeautyModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LillyBeautyModel.TimeSlots" Width="1.5" PointX="14.5" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LillyBeautyModel.UserClaims" Width="1.5" PointX="5.25" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LillyBeautyModel.UserComments" Width="1.5" PointX="5.25" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LillyBeautyModel.UserLogins" Width="1.5" PointX="5.25" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LillyBeautyModel.Users" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LillyBeautyModel.Years" Width="1.5" PointX="7.75" PointY="2.875" IsExpanded="true" />
+        <AssociationConnector Association="LillyBeautyModel.FK_Booking_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="LillyBeautyModel.FK_Booking_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="LillyBeautyModel.FK_Gallery_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="LillyBeautyModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="LillyBeautyModel.FK_Days_Months" ManuallyRouted="false" />
+        <AssociationConnector Association="LillyBeautyModel.FK_TimeSlots_Days" ManuallyRouted="false" />
+        <AssociationConnector Association="LillyBeautyModel.FK_Months_Years" ManuallyRouted="false" />
+        <AssociationConnector Association="LillyBeautyModel.FK_ProductDetail_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="LillyBeautyModel.FK_UserClaims_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="LillyBeautyModel.FK_UserComments_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="LillyBeautyModel.FK_UserLogins_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="LillyBeautyModel.UserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
